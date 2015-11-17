@@ -1,0 +1,188 @@
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"  android:stretchColumns="*" android:background="#ffffff">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="75dp">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:layout_gravity="left"
+            android:background="@drawable/iiitm"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView1"
+            android:layout_gravity="right"
+            android:layout_marginLeft="120dp"
+            android:background="@drawable/iii"/>
+    </LinearLayout>
+
+<LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_marginLeft="100dp"
+        android:id="@+id/textView"
+        android:layout_gravity="center"
+        android:background="@drawable/iciis"/>
+    </LinearLayout>
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/TextView01" android:text="Title"
+            android:layout_weight="1" android:background="#dcdcdc"
+            android:textColor="#000000"
+          android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/TextView02" android:text="Name"
+            android:layout_weight="1" android:background="#d3d3d3"
+            android:textColor="#000000"
+             android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/TextView03" android:text="Contact"
+            android:layout_weight="1" android:background="#cac9c9"
+            android:textColor="#000000"
+           android:gravity="center"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/TextView07" android:text="General Chair"
+            android:layout_weight="1" android:background="#dcdcdc"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/TextView08" android:text="Dr. K. V. Arya"
+            android:layout_weight="1" android:background="#d3d3d3"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/TextView09" android:text="9406967661"
+            android:layout_weight="1" android:background="#cac9c9"
+            android:textColor="#000000"
+            android:gravity="center"
+          />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/TextView04" android:text="Control Head"
+            android:layout_weight="1" android:background="#dcdcdc"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/TextView05" android:text="Dr. Prashant Singh Rana"
+            android:layout_weight="1" android:background="#d3d3d3"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/TextView06" android:text="9098236997"
+            android:layout_weight="1" android:background="#cac9c9"
+            android:textColor="#000000"
+             android:gravity="center"
+            />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/TextView41" android:text="Registration"
+            android:layout_weight="1" android:background="#dcdcdc"
+            android:textColor="#000000"
+             android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/TextView52" android:text="Rishi Raj"
+            android:layout_weight="1" android:background="#d3d3d3"
+            android:textColor="#000000"
+           android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/TextView63" android:text="9406987611"
+            android:layout_weight="1" android:background="#cac9c9"
+            android:textColor="#000000"
+             android:gravity="center"
+           />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/TextView4" android:text="Fee Receipt"
+            android:layout_weight="1" android:background="#dcdcdc"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/TextView5" android:text="Saurabh Behwal"
+            android:layout_weight="1" android:background="#d3d3d3"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/TextView6" android:text="8989978236"
+            android:layout_weight="1" android:background="#cac9c9"
+            android:textColor="#000000"
+            android:gravity="center"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/TextView14" android:text="Travel + Food"
+            android:layout_weight="1" android:background="#dcdcdc"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/TextView15" android:text="Yadunath Pathak"
+            android:layout_weight="1" android:background="#d3d3d3"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/TextView16" android:text="8305249400"
+            android:layout_weight="1" android:background="#cac9c9"
+            android:textColor="#000000"
+            android:gravity="center"
+           />
+
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView"
+                android:layout_gravity="left"
+                android:background="@drawable/iiitm"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView1"
+                android:layout_gravity="right"
+                android:layout_marginLeft="120dp"
+                android:background="@drawable/iii"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/iciis"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AtalBihari Vajpayee-Indian Institute of Information Technology and Management Gwalior (ABV-IIITM Gwalior), a Deemed University, is an apex IT and Management Institute, established by the ministry of HRD, Government of India."
+            android:textSize="15dp"
+            android:id="@+id/textView1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Ninth International Conference on Industrial and Information Systems (ICIIS-2014) will be held at ABV-Indian Institute of Information Technology and Management (IIITM), Gwalior, India jointly with San Diego State University, San Diego CA, USA during 15 – 17 December 2014. The mission of the conference is to bring together academics and industrial experts in the field of Electrical, Electronics, Instrumentation and Control engineering, Computer Science Engineering, Industrial Engineering and Information Technology to a common forum, where a constructive dialog on theoretical concepts, practical ideas and results of the state of the art technology can be developed. "
+            android:textSize="15dp"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+</ScrollView>
